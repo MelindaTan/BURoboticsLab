@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BU Robotics Lab – Undergraduate Research</title>
+  <meta name="description" content="A documentation of my undergraduate research experience at the Boston University Robotics Lab – weekly logs and skills learned." />
+
+  <!-- Preconnect for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <!-- ===================== NAVIGATION ===================== -->
+  <nav aria-label="Main navigation">
+    <a href="#" class="nav-brand" aria-label="Home">
+      <!-- Robot icon SVG -->
+      <svg class="logo-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <rect width="32" height="32" rx="8" fill="#cc0000"/>
+        <!-- head -->
+        <rect x="9" y="6" width="14" height="10" rx="2" fill="white"/>
+        <!-- eyes -->
+        <circle cx="13" cy="11" r="2" fill="#cc0000"/>
+        <circle cx="19" cy="11" r="2" fill="#cc0000"/>
+        <!-- antenna -->
+        <line x1="16" y1="6" x2="16" y2="3" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+        <circle cx="16" cy="2.5" r="1" fill="white"/>
+        <!-- body -->
+        <rect x="10" y="18" width="12" height="9" rx="2" fill="white"/>
+        <!-- arms -->
+        <rect x="5" y="19" width="4" height="3" rx="1.5" fill="white"/>
+        <rect x="23" y="19" width="4" height="3" rx="1.5" fill="white"/>
+        <!-- control panel dots -->
+        <circle cx="14" cy="22" r="1" fill="#cc0000"/>
+        <circle cx="18" cy="22" r="1" fill="#1a73e8"/>
+        <rect x="13" y="24.5" width="6" height="1.2" rx="0.6" fill="#eee"/>
+      </svg>
+      <span>BU Robotics Lab</span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#weekly-log">Weekly Log</a></li>
+      <li><a href="#skills">Skills</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="hero-badge">
+      <!-- gear icon -->
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 15.5A3.5 3.5 0 0 1 8.5 12 3.5 3.5 0 0 1 12 8.5a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5m7.43-2.92c.04-.3.07-.61.07-.93s-.03-.63-.07-.93l2-1.56c.18-.14.23-.41.12-.61l-1.9-3.29c-.12-.2-.34-.27-.55-.2l-2.36.95c-.49-.38-1.02-.7-1.61-.95l-.35-2.51c-.04-.24-.24-.41-.48-.41h-3.8c-.24 0-.43.17-.47.41l-.36 2.51c-.59.25-1.12.57-1.61.95l-2.36-.95c-.21-.07-.43 0-.55.2l-1.9 3.29c-.12.2-.06.47.12.61l2 1.56c-.04.3-.06.62-.06.93s.02.63.06.93l-2 1.56c-.18.14-.24.41-.12.61l1.9 3.29c.12.2.34.27.55.2l2.36-.95c.49.38 1.02.7 1.61.95l.36 2.51c.04.24.23.41.47.41h3.8c.24 0 .44-.17.48-.41l.35-2.51c.59-.25 1.12-.57 1.61-.95l2.36.95c.21.07.43 0 .55-.2l1.9-3.29c.12-.2.06-.47-.12-.61l-2-1.56z"/>
+      </svg>
+      Undergraduate Research
+    </div>
+
+    <h1>Boston University<br/><span>Robotics Lab</span> Notebook</h1>
+    <p class="hero-subtitle">
+      A living record of my research journey — weekly reflections and the skills
+      I've developed along the way.
+    </p>
+
+    <div class="hero-meta">
+      <span class="hero-meta-item">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        Boston University
+      </span>
+      <span class="hero-meta-item">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        2024 – Present
+      </span>
+      <span class="hero-meta-item">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+        Undergraduate Researcher
+      </span>
+    </div>
+  </header>
+
+  <!-- ===================== SECTION NAV ===================== -->
+  <div class="section-nav" role="tablist" aria-label="Jump to section">
+    <button class="section-nav-btn active" data-target="weekly-log" role="tab">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+      Weekly Log
+    </button>
+    <button class="section-nav-btn" data-target="skills" role="tab">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      Skills Learned
+    </button>
+  </div>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main>
+
+    <!-- ---- About / Intro ---- -->
+    <div class="intro-card">
+      <div class="intro-avatar" aria-hidden="true">🤖</div>
+      <div class="intro-content">
+        <h2>About This Lab Notebook</h2>
+        <p>
+          This site documents my experience as an undergraduate researcher in the
+          <strong>Boston University Robotics Lab</strong>. Each week I record what I worked on,
+          challenges I encountered, and what I learned. The Skills section summarizes the
+          technical and professional competencies I've built over the course of my research.
+        </p>
+      </div>
+    </div>
+
+    <!-- ====================================================
+         SECTION 1 – WEEKLY LOG
+         ==================================================== -->
+    <section id="weekly-log" aria-labelledby="weekly-log-heading">
+      <h2 class="section-title" id="weekly-log-heading">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        Weekly Research Log
+      </h2>
+
+      <div class="week-list">
+
+        <!-- Week 1 -->
+        <article class="week-card">
+          <div class="week-header">
+            <div class="week-number">W1</div>
+            <div class="week-header-text">
+              <h3>Onboarding &amp; Lab Orientation</h3>
+              <div class="week-date">January 22 – 26, 2024</div>
+            </div>
+            <svg class="week-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="week-body">
+            <p>First week in the lab! Focused on getting set up and understanding the research direction.</p>
+            <ul>
+              <li>Met with my faculty advisor and graduate student mentor to discuss the lab's current projects.</li>
+              <li>Toured the robotics workspace and learned lab safety protocols.</li>
+              <li>Set up my development environment: ROS 2 (Humble), Ubuntu 22.04, and VS Code.</li>
+              <li>Read introductory papers on the lab's focus area in mobile robotics and SLAM.</li>
+            </ul>
+            <div class="week-tags">
+              <span class="tag">ROS 2</span>
+              <span class="tag">Onboarding</span>
+              <span class="tag">SLAM</span>
+              <span class="tag">Ubuntu</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Week 2 -->
+        <article class="week-card">
+          <div class="week-header">
+            <div class="week-number">W2</div>
+            <div class="week-header-text">
+              <h3>ROS 2 Fundamentals &amp; First Publisher Node</h3>
+              <div class="week-date">January 29 – February 2, 2024</div>
+            </div>
+            <svg class="week-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="week-body">
+            <p>Dove into the ROS 2 framework by working through tutorials and writing my first node.</p>
+            <ul>
+              <li>Completed the official ROS 2 Humble beginner tutorials (nodes, topics, services, parameters).</li>
+              <li>Wrote a simple Python publisher node that streams simulated sensor data.</li>
+              <li>Learned how to use <code>ros2 topic echo</code> and <code>rqt_graph</code> for debugging.</li>
+              <li>Attended weekly lab meeting and presented a short summary of SLAM fundamentals.</li>
+            </ul>
+            <div class="week-tags">
+              <span class="tag">ROS 2</span>
+              <span class="tag">Python</span>
+              <span class="tag">Publisher/Subscriber</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Week 3 -->
+        <article class="week-card">
+          <div class="week-header">
+            <div class="week-number">W3</div>
+            <div class="week-header-text">
+              <h3>Sensor Integration – LiDAR Basics</h3>
+              <div class="week-date">February 5 – 9, 2024</div>
+            </div>
+            <svg class="week-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="week-body">
+            <p>Started working with the lab's Hokuyo UST-10LX LiDAR sensor in a simulated environment.</p>
+            <ul>
+              <li>Studied the <code>sensor_msgs/LaserScan</code> message type and its fields.</li>
+              <li>Visualised LiDAR point clouds in RViz2 using a Gazebo simulation of our robot platform.</li>
+              <li>Wrote a subscriber node to filter out-of-range readings and republish cleaned data.</li>
+              <li>Began reading Thrun et al. <em>Probabilistic Robotics</em> – occupancy grid chapter.</li>
+            </ul>
+            <div class="week-tags">
+              <span class="tag">LiDAR</span>
+              <span class="tag">Gazebo</span>
+              <span class="tag">RViz2</span>
+              <span class="tag">Sensor Fusion</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Week 4 -->
+        <article class="week-card">
+          <div class="week-header">
+            <div class="week-number">W4</div>
+            <div class="week-header-text">
+              <h3>Introduction to SLAM with Nav2</h3>
+              <div class="week-date">February 12 – 16, 2024</div>
+            </div>
+            <svg class="week-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="week-body">
+            <p>Explored the Nav2 stack and ran SLAM Toolbox for the first time on simulated data.</p>
+            <ul>
+              <li>Launched the Nav2 bringup on a TurtleBot3 Gazebo simulation.</li>
+              <li>Used SLAM Toolbox to build and save a 2-D occupancy map of a simulated warehouse.</li>
+              <li>Experimented with different SLAM parameters (linear/angular update distances, loop closure).</li>
+              <li>Documented findings and issues in the lab wiki.</li>
+            </ul>
+            <div class="week-tags">
+              <span class="tag">Nav2</span>
+              <span class="tag">SLAM Toolbox</span>
+              <span class="tag">Mapping</span>
+              <span class="tag">TurtleBot3</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Week 5 -->
+        <article class="week-card">
+          <div class="week-header">
+            <div class="week-number">W5</div>
+            <div class="week-header-text">
+              <h3>Python Data Analysis &amp; Matplotlib Visualisation</h3>
+              <div class="week-date">February 19 – 23, 2024</div>
+            </div>
+            <svg class="week-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="week-body">
+            <p>Wrote analysis scripts to evaluate SLAM accuracy against ground truth from the simulator.</p>
+            <ul>
+              <li>Parsed ROS bag files with <code>rosbag2_py</code> to extract odometry and SLAM pose topics.</li>
+              <li>Calculated Absolute Trajectory Error (ATE) and Relative Pose Error (RPE).</li>
+              <li>Created comparison plots in Matplotlib; identified a drift issue in the SLAM output.</li>
+              <li>Presented results at lab meeting — received feedback to tune the pose graph optimiser.</li>
+            </ul>
+            <div class="week-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Matplotlib</span>
+              <span class="tag">ROS Bags</span>
+              <span class="tag">Data Analysis</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Week 6 -->
+        <article class="week-card">
+          <div class="week-header">
+            <div class="week-number">W6</div>
+            <div class="week-header-text">
+              <h3>Hardware Bring-Up on Physical Robot</h3>
+              <div class="week-date">February 26 – March 1, 2024</div>
+            </div>
+            <svg class="week-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="week-body">
+            <p>Transitioned from simulation to the lab's physical differential-drive robot platform.</p>
+            <ul>
+              <li>Configured the Raspberry Pi 4 compute module, motor drivers, and IMU (BNO055).</li>
+              <li>Flashed and calibrated the LiDAR and verified data through ROS 2 on the physical unit.</li>
+              <li>Debugged a timing issue between the motor encoder topics and the odometry node.</li>
+              <li>Successfully drove the robot manually via a joystick teleop node.</li>
+            </ul>
+            <div class="week-tags">
+              <span class="tag">Hardware</span>
+              <span class="tag">Raspberry Pi</span>
+              <span class="tag">IMU</span>
+              <span class="tag">Debugging</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Week 7 -->
+        <article class="week-card">
+          <div class="week-header">
+            <div class="week-number">W7</div>
+            <div class="week-header-text">
+              <h3>Autonomous Navigation Test Run</h3>
+              <div class="week-date">March 4 – 8, 2024</div>
+            </div>
+            <svg class="week-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="week-body">
+            <p>First fully autonomous navigation test in the hallway outside the lab.</p>
+            <ul>
+              <li>Pre-mapped the 30-metre hallway using the physical robot + SLAM Toolbox.</li>
+              <li>Sent goal poses through Nav2 and observed the robot navigate around a dynamic obstacle (a cart).</li>
+              <li>Recorded a ROS bag of the run for post-processing; analysed localisation jitter at corridor bends.</li>
+              <li>Filed a lab report summarising observations and tuning recommendations.</li>
+            </ul>
+            <div class="week-tags">
+              <span class="tag">Autonomous Navigation</span>
+              <span class="tag">Nav2</span>
+              <span class="tag">Localisation</span>
+              <span class="tag">Field Testing</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Week 8 -->
+        <article class="week-card">
+          <div class="week-header">
+            <div class="week-number">W8</div>
+            <div class="week-header-text">
+              <h3>Computer Vision – Object Detection Prototype</h3>
+              <div class="week-date">March 11 – 15, 2024</div>
+            </div>
+            <svg class="week-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+          <div class="week-body">
+            <p>Started a side-track integrating a USB camera with YOLOv8 for real-time object detection.</p>
+            <ul>
+              <li>Installed Ultralytics YOLOv8 and integrated it into a ROS 2 node that publishes detection bounding boxes.</li>
+              <li>Achieved ~15 FPS on the Raspberry Pi 4 by quantising the model to INT8 via ONNX Runtime.</li>
+              <li>Visualised detections overlaid on the robot's camera feed in RViz2.</li>
+              <li>Read the YOLOv8 paper and compared to YOLOv5 baseline performance on the COCO dataset.</li>
+            </ul>
+            <div class="week-tags">
+              <span class="tag">Computer Vision</span>
+              <span class="tag">YOLOv8</span>
+              <span class="tag">ONNX</span>
+              <span class="tag">Camera</span>
+            </div>
+          </div>
+        </article>
+
+      </div><!-- /.week-list -->
+    </section>
+
+    <!-- ====================================================
+         SECTION 2 – SKILLS
+         ==================================================== -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 class="section-title" id="skills-heading">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        Skills Learned
+      </h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🤖</div>
+          <h3>ROS 2 (Robot Operating System)</h3>
+          <p>
+            Nodes, topics, services, actions, parameters, launch files, and
+            lifecycle nodes. Comfortable building multi-package workspaces with colcon.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Intermediate</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" aria-label="ROS 2 proficiency 68%">
+              <div class="skill-bar-fill" style="width:68%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🐍</div>
+          <h3>Python for Robotics</h3>
+          <p>
+            Writing ROS 2 nodes, data analysis with NumPy &amp; Pandas, visualisation
+            with Matplotlib, and model inference pipelines.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Proficient</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" aria-label="Python proficiency 80%">
+              <div class="skill-bar-fill" style="width:80%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🗺️</div>
+          <h3>SLAM &amp; Mapping</h3>
+          <p>
+            Understanding of occupancy grids, scan-matching, pose graph optimisation,
+            and practical use of SLAM Toolbox within the Nav2 stack.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Developing</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" aria-label="SLAM proficiency 55%">
+              <div class="skill-bar-fill" style="width:55%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">👁️</div>
+          <h3>Computer Vision</h3>
+          <p>
+            Real-time object detection with YOLOv8, model quantisation and optimisation
+            for edge hardware, and camera–robot integration in ROS 2.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Developing</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" aria-label="Computer Vision proficiency 50%">
+              <div class="skill-bar-fill" style="width:50%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🔧</div>
+          <h3>Hardware &amp; Embedded Systems</h3>
+          <p>
+            Bring-up and calibration of LiDAR, IMU, and motor drivers on a Raspberry Pi 4;
+            wiring, debugging, and power management for mobile robots.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Beginner</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" aria-label="Hardware proficiency 40%">
+              <div class="skill-bar-fill" style="width:40%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🐧</div>
+          <h3>Linux &amp; Command Line</h3>
+          <p>
+            Confident with Ubuntu 22.04, bash scripting, systemd service management,
+            SSH, and remote robot operations over a local network.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Proficient</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" aria-label="Linux proficiency 78%">
+              <div class="skill-bar-fill" style="width:78%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">📊</div>
+          <h3>Data Analysis &amp; Evaluation</h3>
+          <p>
+            Parsing ROS 2 bag files, computing ATE/RPE trajectory metrics, and producing
+            clear visualisations to communicate experimental results.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Intermediate</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="62" aria-valuemin="0" aria-valuemax="100" aria-label="Data Analysis proficiency 62%">
+              <div class="skill-bar-fill" style="width:62%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🔬</div>
+          <h3>Research &amp; Technical Writing</h3>
+          <p>
+            Reading and summarising academic papers, maintaining lab wiki documentation,
+            presenting findings at weekly meetings, and filing structured lab reports.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Intermediate</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" aria-label="Research Writing proficiency 65%">
+              <div class="skill-bar-fill" style="width:65%"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon" aria-hidden="true">🔄</div>
+          <h3>Git &amp; Version Control</h3>
+          <p>
+            Daily use of Git for collaborative code management — branching, pull requests,
+            code reviews, and maintaining a clean commit history for lab software.
+          </p>
+          <div class="skill-level">
+            <span class="skill-level-label">Proficient</span>
+            <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="Git proficiency 75%">
+              <div class="skill-bar-fill" style="width:75%"></div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.skills-grid -->
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer>
+    <p>
+      &copy; 2024 BU Robotics Lab &mdash; Undergraduate Research Portfolio &bull;
+      <a href="https://www.bu.edu/robotics/" target="_blank" rel="noopener noreferrer">Boston University Robotics</a>
+    </p>
+  </footer>
+
+  <!-- Back-to-top button -->
+  <button id="back-to-top" aria-label="Back to top">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
